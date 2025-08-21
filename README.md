@@ -2,7 +2,6 @@
 
 ## Projects
 - **Pod Landing Page** - Flexbox, positioning, overlays
-- **Pizza Redesign** - Responsive layout, semantic HTML
 - **Pizzeria Concept** - Layout experiments
 
 ## Practice Exercises
