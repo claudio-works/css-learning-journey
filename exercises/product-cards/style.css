@@ -43,7 +43,7 @@ ol {
   font-family: "IBM Plex Mono", sans-serif;
   font-weight: 400;
   letter-spacing: 0.001rem;
-  font-size:medium;
+  font-size: medium;
 }
 
 .card-container {
@@ -60,18 +60,28 @@ ol {
 
 .product-footer {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .product-badge {
-color: red;
- font-family: "IBM Plex Mono", sans-serif;
-margin-bottom: 5px;
-
+  color: red;
+  font-family: "IBM Plex Mono", sans-serif;
+  margin-bottom: 5px;
 }
 
 .add-to-cart {
-     font-family: "IBM Plex Mono", sans-serif;
-border-radius: 2px;
-border: 1px solid black;
+  font-family: "IBM Plex Mono", sans-serif;
+  border-radius: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-2px);
+}
+
+.add-to-cart:active {
+  background-color: rgb(255, 182, 45);
 }
